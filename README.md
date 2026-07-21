@@ -1,52 +1,45 @@
-# 🎯 Case OrderHub — Gerente de Projetos
+# 🎯 Case GP — OrderHub | Plataforma B2B de Pedidos
 
-> Estruturação completa de um projeto real de plataforma B2B sob a ótica de **Gestão de Projetos** (PMBOK + Ágil híbrido), com artefatos ponta a ponta: iniciação, planejamento, execução, monitoramento e encerramento.
+> Repositório-case demonstrando **atuação como Gerente de Projetos** na entrega de uma plataforma B2B do zero à produção, aplicando **PMBOK 7, Ágil híbrido e governança executiva**.
 
-![Metodologia](https://img.shields.io/badge/Metodologia-PMBOK%20%2B%20Scrum-blue)
-![Duração](https://img.shields.io/badge/Duração-6%20meses-green)
-![Time](https://img.shields.io/badge/Time-12%20pessoas-orange)
-![Budget](https://img.shields.io/badge/Budget-R%24%201.2M-yellow)
+![Status](https://img.shields.io/badge/status-conclu%C3%ADdo-success)
+![Metodologia](https://img.shields.io/badge/metodologia-h%C3%ADbrido%20(PMBOK%20%2B%20Scrum)-blue)
+![Duração](https://img.shields.io/badge/dura%C3%A7%C3%A3o-8%20meses-orange)
+
+## 📌 Contexto do Case
+
+**Projeto:** OrderHub — Plataforma de Gestão de Pedidos B2B
+**Cliente fictício:** Distribuidora Nacional de Autopeças (DNA S.A.)
+**Problema:** Pedidos entram por e-mail, WhatsApp, telefone e planilha; 18% têm erro de preço/estoque; SLA de faturamento em 72h.
+**Objetivo:** Portal + integração ERP (SAP) para reduzir erros a <2% e SLA a 24h.
+**Duração:** 8 meses | **Time:** 12 pessoas | **Orçamento:** R$ 1,4M
+**Stack:** React + Node.js + PostgreSQL + integração SAP via API REST
+
+
+## 🗂️ Estrutura
+```text
+├── 01-iniciacao/          → Business Case, Charter, Stakeholders
+├── 02-planejamento/       → EAP, Cronograma, Orçamento, Riscos, Comunicação, Qualidade
+├── 03-execucao/           → Status Reports, Atas, Change Requests
+├── 04-monitoramento/      → EVM, KPIs, Dashboard, Curva S
+├── 05-encerramento/       → TAP, Lições Aprendidas, Post-Mortem
+└── diagramas/             → Gantt, EAP, Fluxos (Mermaid)
+```
+
+## 🎓 Como usar como material de estudo
+Cada documento traz:
+1. **Contexto** — quando aplicar
+2. **Template preenchido** — exemplo real do case
+3. **Dicas do GP** — armadilhas comuns
+
+## 🏆 Resultados atingidos
+| KPI | Baseline | Meta | Real |
+|-----|----------|------|------|
+| Erro em pedidos | 18% | <2% | **1,3%** |
+| SLA faturamento | 72h | 24h | **19h** |
+| Satisfação cliente (NPS) | 32 | 60 | **71** |
+| Aderência ao orçamento | - | ±5% | **-3,2%** |
+| Aderência ao prazo | - | ±10% | **+4%** |
 
 ---
-
-## 🚀 Sobre o Projeto
-
-**OrderHub** é uma plataforma B2B de gestão de pedidos que integra distribuidores, indústria e força de vendas em um único hub transacional. Este repositório documenta o projeto do ponto de vista do **Gerente de Projetos**, mostrando como escopo, prazo, custo, riscos, stakeholders e entregas foram conduzidos.
-
-**Resultado alcançado:** entrega on-time, 8% abaixo do orçamento, com NPS interno de 82.
-
----
-
-## 📂 Estrutura do Repositório
-
-| Pasta | Conteúdo |
-|-------|----------|
-| `01-iniciacao/` | Project Charter, Business Case, Registro de Stakeholders |
-| `02-planejamento/` | EAP/WBS, Cronograma, Orçamento, Matriz de Riscos, Plano de Comunicação |
-| `03-execucao/` | Atas de reunião, Status Reports, Change Requests |
-| `04-monitoramento/` | Burndown, EVM (CPI/SPI), Dashboards de KPIs |
-| `05-encerramento/` | Termo de Aceite, Lições Aprendidas, Post-Mortem |
-| `diagrams/` | Gantt, WBS e fluxos em Mermaid |
-| `templates/` | Modelos reutilizáveis dos artefatos |
-
----
-
-## 🎓 Competências Demonstradas
-
-- Gestão de escopo, prazo e custo (tríplice restrição)
-- Facilitação de cerimônias ágeis (Scrum) + governança waterfall
-- Gestão de riscos quantitativa e qualitativa
-- Comunicação executiva e engajamento de stakeholders
-- Métricas de valor agregado (EVM)
-
----
-
-## 📊 Números do Projeto
-
-| Indicador | Valor |
-|-----------|-------|
-| CPI final | 1.08 |
-| SPI final | 1.02 |
-| Riscos mitigados | 14 de 17 |
-| Sprints entregues | 12/12 |
-| Change Requests aprovadas | 6 
+👤 **Everton** — Gerente de Projetos | [LinkedIn](https://linkedin.com/in/everton19811)

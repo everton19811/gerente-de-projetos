@@ -1,0 +1,35 @@
+graph TB
+    subgraph EXP[Camada de Experiencia]
+        P1[Portal ContractFlow]
+        P2[App Comercial]
+        P3[Portal Cliente B2B]
+    end
+    subgraph PROC[Camada de Processos]
+        W[Workflow Camunda BPMN]
+        R[Motor de Regras]
+        C[Contrato Digital]
+    end
+    subgraph ORC[Camada de Orquestracao MuleSoft]
+        PA[Process APIs]
+        SA[System APIs]
+    end
+    subgraph SYS[Sistemas Integrados 23+]
+        S1[SAP ECC]
+        S2[Salesforce]
+        S3[TOTVS]
+        S4[TMS/WMS]
+        S5[DocuSign]
+        S6[SEFAZ/SPED]
+        S7[Gateway Bancario]
+        S8[Legados Cobol/VB6/PHP]
+        S9[Bureaus Serasa/SPC]
+    end
+    subgraph DATA[Camada de Dados]
+        DL[Data Lake Azure]
+        BI[Power BI]
+    end
+    EXP --> PROC
+    PROC --> ORC
+    ORC --> SYS
+    SYS --> DL
+    DL --> BI

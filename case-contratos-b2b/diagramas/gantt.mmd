@@ -1,0 +1,18 @@
+gantt
+    title Cronograma ContractFlow B2B
+    dateFormat  YYYY-MM-DD
+    section Discovery
+    Discovery & Arquitetura   :d1, 2025-01-20, 55d
+    section Setup
+    MuleSoft + conectores base :d2, after d1, 45d
+    section Sprints
+    Sprint 1-4 Contrato Digital :d3, 2025-05-01, 60d
+    Sprint 5-8 Integracoes Alta :d4, after d3, 60d
+    Sprint 9-12 Legados+Fiscal  :d5, after d4, 30d
+    section Homologacao
+    UAT & Correcoes            :d6, after d5, 30d
+    Piloto 3 clientes          :d7, after d6, 14d
+    section Go-live
+    Go-live                    :milestone, m1, 2025-11-15, 0d
+    Hypercare                  :d8, 2025-11-16, 35d
+    Encerramento               :milestone, m2, 2025-12-20, 0d

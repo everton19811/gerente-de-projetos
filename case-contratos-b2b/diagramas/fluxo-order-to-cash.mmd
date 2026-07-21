@@ -1,0 +1,29 @@
+sequenceDiagram
+    autonumber
+    participant CL as Cliente B2B
+    participant CF as ContractFlow
+    participant SF as Salesforce
+    participant BC as Bureau Credito
+    participant DS as DocuSign
+    participant SAP as SAP ECC
+    participant TMS as TMS/WMS
+    participant SEF as SEFAZ
+    participant BAN as Gateway Banco
+    participant REC as Reconciliacao
+
+    CL->>CF: Solicita contrato
+    CF->>SF: Cria oportunidade
+    CF->>BC: Consulta credito
+    BC-->>CF: Score aprovado
+    CF->>CF: Gera contrato versionado
+    CF->>DS: Envia p/ assinatura
+    DS-->>CF: Contrato assinado
+    CF->>SAP: Cria pedido de venda
+    SAP->>TMS: Solicita expedicao
+    TMS-->>SAP: Confirma entrega
+    SAP->>SEF: Emite NF-e
+    SEF-->>SAP: Autoriza uso
+    SAP->>BAN: Gera cobranca
+    BAN-->>REC: Confirma pagamento
+    REC->>SAP: Baixa financeira
+    REC->>CF: Contrato encerrado

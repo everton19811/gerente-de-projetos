@@ -1,0 +1,9 @@
+stateDiagram-v2
+  [*] --> Rascunho
+  Rascunho --> EmRevisao: Enviar
+  EmRevisao --> Aprovado: OK 2 revisores
+  EmRevisao --> Rascunho: Ajustes
+  Aprovado --> Agendado
+  Agendado --> Publicado: Data/hora
+  Publicado --> Arquivado
+  Arquivado --> [*]

@@ -1,0 +1,32 @@
+flowchart LR
+  subgraph Publico
+    WP[Site WordPress<br/>desenvolvenoespectro]
+    FORM[Formulários]
+  end
+  subgraph Plataforma
+    API[API Gateway]
+    APP[Backend Modular<br/>CRM + Editorial]
+    DB[(Postgres)]
+    S3[(S3 Anexos)]
+    Q[Fila SQS]
+  end
+  subgraph Integracoes
+    PAY[Gateway Doações]
+    ERP[ERP Contábil]
+    EMK[E-mail Marketing]
+    WA[WhatsApp Business]
+    SSO[Google Workspace SSO]
+  end
+  BI[Metabase BI]
+  WP-->API
+  FORM-->API
+  API-->APP
+  APP-->DB
+  APP-->S3
+  APP-->Q
+  Q-->PAY
+  Q-->ERP
+  Q-->EMK
+  Q-->WA
+  SSO-->APP
+  DB-->BI

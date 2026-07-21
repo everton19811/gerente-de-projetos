@@ -1,0 +1,14 @@
+sequenceDiagram
+  participant D as Doador
+  participant Site as Site Público
+  participant API as Plataforma
+  participant Pay as Gateway
+  participant ERP as ERP
+  participant EMK as E-mail MKT
+  D->>Site: Preenche doação
+  Site->>API: POST /doacoes
+  API->>Pay: Cria cobrança
+  Pay-->>API: Webhook paid
+  API->>ERP: Lança receita
+  API->>EMK: Adiciona à trilha "doador ativo"
+  API-->>D: Recibo por e-mail

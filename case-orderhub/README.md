@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/30238045/README.md)
 # 🎯 Case GP — OrderHub | Plataforma B2B de Pedidos
 
 > Repositório-case demonstrando **atuação como Gerente de Projetos** na entrega de uma plataforma B2B do zero à produção, aplicando **PMBOK 7, Ágil híbrido e governança executiva**.

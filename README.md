@@ -10,7 +10,7 @@
 
 ```text
 📦 repositorio/
-├── 📁 case-orderhub/          ← Case 1
+├── 📁 case-nome-do-projeto/          ← Case 1
 │   ├── 01-iniciacao/
 │   ├── 02-planejamento/
 │   ├── 03-execucao/
@@ -18,9 +18,6 @@
 │   ├── 05-encerramento/
 │   ├── diagramas/
 │   └── README.md
-│
-├── 📁 case-nome-do-projeto/   ← Case 2 (mesma estrutura)
-│   └── ...
 │
 └── 📁 case-nome-do-projeto/   ← Case N (mesma estrutura)
     └── ...

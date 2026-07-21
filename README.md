@@ -69,8 +69,7 @@ Cada case é organizado pelos **5 grupos de processos do PMBOK**:
 |------|-------|-------------|--------|
 | [case-orderhub](./case-orderhub) | Plataforma B2B | Híbrido (PMBOK + Scrum) | ✅ Concluído |
 | [case-contratos-b2b](./case-contratos-b2b) | Contratos B2B | Híbrido (PMBOK) | ✅ Concluído |
-| [case-ong-desenvolve](./case-ong-desenvolve) | Criaão de Landingpage  |  (Scrum) | <img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/0cfd76f9-c794-4d99-80de-1bcd1d4fb3f4" />
- Em breve |
+| [case-ong-desenvolve](./case-ong-desenvolve) | Criaão de Landingpage  |  (Scrum) | ⏳Em Andamento |
 | _(próximo case)_ | — | — | 🔜 Em breve |
 
 ---
